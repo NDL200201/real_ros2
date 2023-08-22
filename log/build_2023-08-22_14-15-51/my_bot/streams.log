@@ -1,0 +1,9 @@
+[0.014s] Invoking command in '/home/server/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/server/dev_ws/build/my_bot -- -j8 -l8
+[0.031s] [31mCMake Error at CMakeLists.txt:20:
+[0.031s]   Parse error.  Expected a newline, got identifier with text "find_package".
+[0.031s] 
+[0.032s] [0m
+[0.032s] -- Configuring incomplete, errors occurred!
+[0.032s] See also "/home/server/dev_ws/build/my_bot/CMakeFiles/CMakeOutput.log".
+[0.033s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.035s] Invoked command in '/home/server/dev_ws/build/my_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/server/dev_ws/build/my_bot -- -j8 -l8

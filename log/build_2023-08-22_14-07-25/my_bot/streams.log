@@ -1,0 +1,73 @@
+[0.014s] Invoking command in '/home/server/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/server/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/server/dev_ws/install/my_bot
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.214s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.291s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.295s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.378s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.385s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.559s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.657s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.774s] -- Configuring done
+[0.778s] -- Generating done
+[0.780s] -- Build files have been written to: /home/server/dev_ws/build/my_bot
+[0.788s] Invoked command in '/home/server/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/server/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/server/dev_ws/install/my_bot
+[0.790s] Invoking command in '/home/server/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/server/dev_ws/build/my_bot -- -j8 -l8
+[0.821s] Invoked command in '/home/server/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/server/dev_ws/build/my_bot -- -j8 -l8
+[0.849s] Invoking command in '/home/server/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/server/dev_ws/build/my_bot
+[0.857s] -- Install configuration: ""
+[0.857s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/launch
+[0.857s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.857s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/launch/description_launch.py
+[0.857s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/launch/display.launch.py
+[0.858s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/launch/launch_mp.launch.py
+[0.858s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/meshes
+[0.858s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/meshes/wheel_link.dae
+[0.859s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/meshes/caster_wheel_link.dae
+[0.860s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/meshes/chassis_link.dae
+[0.868s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/meshes/camera_link.dae
+[0.871s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/urdf
+[0.871s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/camera.xacro
+[0.871s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/robot.urdf.xacro
+[0.871s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/robot_core.xacro
+[0.872s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/ros2_control.xacro
+[0.872s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/gazebo_control.xacro
+[0.872s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/urdf/inertial_macros.xacro
+[0.873s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/config
+[0.873s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/config/main.rviz
+[0.873s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/config/drive.rviz
+[0.873s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.874s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.874s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/config/xe.rviz
+[0.874s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/worlds
+[0.874s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/worlds/mp.world
+[0.874s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/description
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/description/camera.xacro
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.875s] -- Installing: /home/server/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.876s] -- Installing: /home/server/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.876s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.876s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.876s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.877s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.877s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.877s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.877s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.877s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.877s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.878s] -- Installing: /home/server/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.878s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.878s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.878s] -- Installing: /home/server/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.881s] Invoked command in '/home/server/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/server/dev_ws/build/my_bot

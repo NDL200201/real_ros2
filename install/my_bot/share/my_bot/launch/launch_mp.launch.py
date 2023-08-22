@@ -1,0 +1,1 @@
+/home/server/dev_ws/src/my_bot/launch/launch_mp.launch.py
